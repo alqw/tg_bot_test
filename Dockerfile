@@ -19,4 +19,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 COPY . .
 
-CMD [ "uv", "run", "main.py" ]
+CMD [ "python", "main.py" ]
