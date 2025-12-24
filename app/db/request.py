@@ -62,5 +62,5 @@ def answer_expenses(expenses):
         sum += exp.sum
 
     answer.append("-----------")
-    answer.append(f"Всего: {sum} руб.")
+    answer.append(f"Всего: {sum} тенге.")
     return "\n\n".join(answer)
